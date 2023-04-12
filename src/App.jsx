@@ -29,6 +29,7 @@ const totalTarefas = useMemo(()=> tarefas.length, [tarefas])
     <h2>{count}</h2>
     <button onClick={()=>{setCount(count +1)}}>+1</button>
     <h2>multiplicanco count por um numero aleatório: {aleatorio}</h2>
+    <h3>Nova atualização</h3>
     </>
   )
 }
